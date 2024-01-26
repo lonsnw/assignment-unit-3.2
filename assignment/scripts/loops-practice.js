@@ -29,6 +29,8 @@ for (let i=3; i<6; i++) {
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for (let i=2; i<=10; i++) { 
   if(i%2===0){ 
+//learned the %2=== thing from David last night during the group activity 
+//he looked it up somewhere but i'm not sure where
   console.log(i);
   }
 }
@@ -42,6 +44,7 @@ for (let i=5; i>=0; i--) {
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
+console.log(stars);
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
